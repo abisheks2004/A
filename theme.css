@@ -111,7 +111,7 @@ html {
     .container {
         width: 100%;
         /* Make the container full-width */
-        padding: 20px;
+        padding: 10px;
         /* Add some padding for better readability */
     }
     .section {
@@ -119,7 +119,7 @@ html {
         /* Add some padding to each section */
     }
     video {
-        width: 100%;
+        width: 80%;
         /* Make the videos full-width */
         height: auto;
         /* Adjust the height automatically */

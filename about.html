@@ -10,67 +10,68 @@
 </head>
 
 <body>
-    <div class="container">
-        <section class="section" id="section1">
-            <h1 class="hb1"> HAPPY BIRTHDAY THANGOO..&#129395;</h1>
-            <video width="420" height="340" controls id="a1">
+    <center>
+        <div class="container">
+            <section class="section" id="section1">
+                <h1 class="hb1"> HAPPY BIRTHDAY THANGOO..&#129395;</h1>
+                <video width="420" height="340" controls id="a1">
                 <source src="vv1.mp4" type="video/mp4">
               </video> <br><br>
-            <h1>STOP AND GO NEXT....!</h1>
-            <br><br>
-            <a href="#section1"><button class="b">1</button></a>
-            <a href="#section2"><button class="b">2</button></a>
-            <a href="#section3"><button class="b">3</button></a>
-            <div class="balloon" style="left: 20%; background-color: #ffeb3b; animation-delay: 0s;"></div>
-            <div class="balloon" style="left: 40%; background-color: #f57600; animation-delay: 2s;"></div>
-            <div class="balloon" style="left: 60%; background-color: #00f2ff; animation-delay: 4s;"></div>
-            <div class="balloon" style="left: 80%; background-color: #ff0392; animation-delay: 6s;"></div>
-        </section>
-        <section class="section" id="section2">
-            <h1 class="hb2"> HAPPY BIRTHDAY PAITHIYAM &#128522;</h1>
-            <P class="hbp">nee yeppayum HAPPYA IRUANUM...&#128524;</P>
-            <video width="420" height="340" controls id="a2">
+                <br><br>
+                <p>stop and go next....!</p>
+                <a href="#section1"><button class="b">1</button></a>
+                <a href="#section2"><button class="b">2</button></a>
+                <a href="#section3"><button class="b">3</button></a>
+                <div class="balloon" style="left: 20%; background-color: #ffeb3b; animation-delay: 0s;"></div>
+                <div class="balloon" style="left: 40%; background-color: #f57600; animation-delay: 2s;"></div>
+                <div class="balloon" style="left: 60%; background-color: #00f2ff; animation-delay: 4s;"></div>
+                <div class="balloon" style="left: 80%; background-color: #ff0392; animation-delay: 6s;"></div>
+            </section>
+            <section class="section" id="section2">
+                <h1 class="hb2"> HAPPY BIRTHDAY PAITHIYAM &#128522;</h1>
+                <P class="hbp">nee eppavuma happyaa irukanum...&#128524;</P>
+                <video width="420" height="340" controls id="a2">
                 <source src="v2.mp4" type="video/mp4">
               </video> <br><br>
-            <h1>STOP AND GO NEXT....!</h1>
-            <br><br>
-            <a href="#section1"><button class="b">1</button></a>
-            <a href="#section2"><button class="b">2</button></a>
-            <a href="#section3"><button class="b">3</button></a>
-        </section>
-        <section class="section" id="section3">
-            <h1 class="hb2"> &#128123; 🧚🏻‍♂</h1>
-            <br>
-            <video width="420" height="340" controls id="a3">
+                <br><br>
+                <p>stop and go next....!</p>
+                <a href="#section1"><button class="b">1</button></a>
+                <a href="#section2"><button class="b">2</button></a>
+                <a href="#section3"><button class="b">3</button></a>
+            </section>
+            <section class="section" id="section3">
+                <h1 class="hb2"> &#128123; 🧚🏻‍♂</h1>
+                <br>
+                <video width="420" height="340" controls id="a3">
                 <source src="v3.mp4" type="video/mp4">
               </video> <br><br><br><br>
-            <h1>STOP AND GO NEXT....!</h1>
-            <br><br>
-            <a href="#section1"><button class="b">1</button></a>
-            <a href="#section2"><button class="b">2</button></a>
-            <a href="#section3"><button class="b">3</button></a>
+                <br><br>
+                <p>stop and go next....!</p>
+                <a href="#section1"><button class="b">1</button></a>
+                <a href="#section2"><button class="b">2</button></a>
+                <a href="#section3"><button class="b">3</button></a>
 
 
 
-            <form id="whatsappForm">
-                <h2>Send a Message </h2>
-                <label for="message">Enter  message:</label>
-                <input type="text" id="message" name="message" placeholder="Type your PONNANA VARTHAIGAL..." required>
-                <button type="submit">Send </button>
-            </form>
+                <form id="whatsappForm">
+                    <h2>Send a Message </h2>
+                    <label for="message">Enter  message:</label>
+                    <input type="text" id="message" name="message" placeholder="Type your PONNANA words..." required>
+                    <button type="submit">Send </button>
+                </form>
 
-            <script>
-                document.getElementById('whatsappForm').addEventListener('submit', function(event) {
-                    event.preventDefault();
-                    const message = document.getElementById('message').value;
-                    const phoneNumber = '916374511106';
-                    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-                    window.open(whatsappUrl, '_blank');
-                });
-            </script>
-        </section>
-    </div>
-
+                <script>
+                    document.getElementById('whatsappForm').addEventListener('submit', function(event) {
+                        event.preventDefault();
+                        const message = document.getElementById('message').value;
+                        const phoneNumber = '916374511106';
+                        const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+                        window.open(whatsappUrl, '_blank');
+                    });
+                </script>
+            </section>
+        </div>
+    </center>
 </body>
 
 </html>

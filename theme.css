@@ -125,7 +125,7 @@ html {
         /* Adjust the height automatically */
     }
     .balloon {
-        display: contents;
+        display: none;
         /* Hide the balloons on mobile devices */
     }
     .b {

@@ -106,3 +106,38 @@ html {
         transform: translateY(-100vh) rotate(-10deg);
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        /* Make the container full-width */
+        padding: 20px;
+        /* Add some padding for better readability */
+    }
+    .section {
+        padding: 20px;
+        /* Add some padding to each section */
+    }
+    video {
+        width: 100%;
+        /* Make the videos full-width */
+        height: auto;
+        /* Adjust the height automatically */
+    }
+    .balloon {
+        display: none;
+        /* Hide the balloons on mobile devices */
+    }
+    .b {
+        font-size: 16px;
+        /* Increase the font size of the navigation buttons */
+    }
+    #whatsappForm {
+        padding: 20px;
+        /* Add some padding to the form */
+    }
+}
+
+@media only screen and (max-device-width: 480px) and (orientation: portrait) {
+    /* Mobile-specific styles here */
+}
